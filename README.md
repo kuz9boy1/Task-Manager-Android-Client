@@ -203,7 +203,7 @@ MyApplication2/
 ### Шаг 1: Клонирование
 
 ```bash
-git clone <ссылка-на-репозиторий>
+git clone <https://github.com/kuz9boy1/Task-Manager-Android-Client>
 cd TaskManagerAndroid
 Или распакуйте ZIP-архив.
 
