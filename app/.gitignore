@@ -1,0 +1,19 @@
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Локальные файлы
+local.properties
+
+# Kotlin
+.kotlin/
+
+# DS Store (macOS)
+.DS_Store

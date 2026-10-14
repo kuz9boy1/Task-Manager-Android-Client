@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add_task">Добавить Задачу</string>
+    <string name="new_task">Новая задача</string>
+    <string name="task_name">Название задачи</string>
+    <string name="description">Описание</string>
+    <string name="deadline">Дедлайн (например, 12.10.2026)</string>
+    <string name="save">Сохранить</string>
+    <string name="task_manager">Task Manager</string>
+    <string name="welcome">Welcome!</string>
+    <string name="registration">Регистрация</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="repassword">Повторите пароль</string>
+    <string name="registrated">Зарегистрироваться</string>
+    <string name="have_acc">Уже есть аккаунт? Войти</string>
+    <string name="enter_pass">Введите логин</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="remember">Запомнить меня</string>
+    <string name="sign">Вход</string>
+    <string name="task">Задача</string>
+    <string name="name">Название</string>
+    <string name="deadlinwithout">Дедлайн</string>
+    <string name="delete">Удалить</string>
+    <string name="signout">Выйти</string>
+    <string name="number">№</string>
+</resources>
