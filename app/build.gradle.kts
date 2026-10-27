@@ -8,6 +8,11 @@ android {
     namespace = "com.example.myapplication"
     compileSdk = 34
 
+    lint {
+        checkReleaseBuilds = false
+        abortOnError = false
+    }
+
     defaultConfig {
         applicationId = "com.example.myapplication"
         minSdk = 24

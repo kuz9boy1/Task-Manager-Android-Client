@@ -66,6 +66,11 @@ class TaskTableActivity : AppCompatActivity() {
         btnLogout.setOnClickListener {
             showLogoutDialog()
         }
+        val btnCurrencyRate = findViewById<Button>(R.id.btnCurrencyRate)
+        btnCurrencyRate.setOnClickListener {
+            val intent = Intent(this, ExchangeRateActivity::class.java)
+            startActivity(intent)
+        }
 
         lifecycleScope.launch {
             val serverUserId = userId.takeIf { it > 0 }
