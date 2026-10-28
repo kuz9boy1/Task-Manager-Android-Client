@@ -50,13 +50,16 @@ class ExchangeRateActivity : AppCompatActivity() {
 
                             val usd = state.data.Valute["USD"]
                             val eur = state.data.Valute["EUR"]
+                            val cny = state.data.Valute["CNY"]
 
                             val usdRate = if (usd != null) usd.Value / usd.Nominal else 0.0
                             val eurRate = if (eur != null) eur.Value / eur.Nominal else 0.0
+                            val cnyRate = if (cny != null) cny.Value / cny.Nominal else 0.0
 
                             textViewResult.text = "Курс ЦБ РФ:\n" +
                                     "USD: %.2f RUB\n".format(usdRate) +
-                                    "EUR: %.2f RUB".format(eurRate)
+                                    "EUR: %.2f RUB\n".format(eurRate) +
+                                    "CNY: %.2f ₽".format(cnyRate)
                         }
                         is ExchangeState.Error -> {
                             progressBar.visibility = View.GONE
